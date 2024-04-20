@@ -1,0 +1,15 @@
+sensitive:
+  enable: true
+  depth: false #是否开启深度脱敏，有深度嵌套的属性也可以脱敏
+  packages: #为空，扫描全路径
+#jasypt:
+#  encryptor:
+#    password: qwe123
+
+app:
+  id: 1
+
+my:
+  redis:
+    host: 192.168.1.1
+    password: 123456
